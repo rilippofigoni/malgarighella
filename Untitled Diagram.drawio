@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-24T13:02:02.461Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="MqdlHsUwwwj4VK5h2L3p" version="13.7.5" type="github">
+<mxfile modified="2020-09-24T13:05:07.431Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="bU62rkfLtNNTTollRyWt" version="13.7.5" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1673" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="800" y="118" width="115" height="32" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-32" value="&lt;b&gt;ETCD&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#0A0D12;" vertex="1" parent="1">
-          <mxGeometry x="620" y="210" width="320" height="50" as="geometry" />
+          <mxGeometry x="620" y="200" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-33" value="&lt;b&gt;MASTER NODE&lt;/b&gt;" style="text;html=1;strokeColor=#23445d;fillColor=#bac8d3;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="30" width="110" height="20" as="geometry" />
@@ -116,7 +116,7 @@
           <mxGeometry x="450" y="118" width="45" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-120" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=etcd" vertex="1" parent="1">
-          <mxGeometry x="755" y="194" width="50" height="48" as="geometry" />
+          <mxGeometry x="690" y="206" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-122" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=rs" vertex="1" parent="1">
           <mxGeometry x="920" y="155" width="50" height="48" as="geometry" />
