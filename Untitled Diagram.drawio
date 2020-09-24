@@ -1,6 +1,6 @@
-<mxfile modified="2020-09-24T12:15:09.203Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="EbL6Uk_kx19IO_JVkZpP" version="13.7.5" type="github">
+<mxfile modified="2020-09-24T12:18:48.158Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Z1-dXnJdld6KB3-Fnd1S" version="13.7.5" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
-    <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,35 +22,35 @@
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXs9M7bIU0b1kzFrnqTN-5" target="sXs9M7bIU0b1kzFrnqTN-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sXs9M7bIU0b1kzFrnqTN-5" value="&lt;b&gt;CONFIGURE THE MASTER NODE&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;source sans pro&amp;#34; , sans-serif ; letter-spacing: 0.57px ; background-color: rgb(254 , 254 , 254)&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;Kubernetes clusters operate on master-worker principle where the master node(s) arrange the application pods for the worker nodes to run.&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="sXs9M7bIU0b1kzFrnqTN-5" value="&lt;b&gt;3. CONFIGURE THE MASTER NODE&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;source sans pro&amp;#34; , sans-serif ; letter-spacing: 0.57px ; background-color: rgb(254 , 254 , 254)&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;Kubernetes clusters operate on master-worker principle where the master node(s) arrange the application pods for the worker nodes to run.&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="270" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXs9M7bIU0b1kzFrnqTN-6" target="sXs9M7bIU0b1kzFrnqTN-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sXs9M7bIU0b1kzFrnqTN-6" value="&lt;b&gt;START THE MASTER KUBELET&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;source sans pro&amp;#34; , sans-serif ; letter-spacing: 0.57px ; background-color: rgb(254 , 254 , 254)&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;With all of the configuration and manifest files in place, go ahead and reload the systemcl daemon to apply the changes, then start and enable the kubelet service.&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="sXs9M7bIU0b1kzFrnqTN-6" value="&lt;b&gt;4. START THE MASTER KUBELET&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;source sans pro&amp;#34; , sans-serif ; letter-spacing: 0.57px ; background-color: rgb(254 , 254 , 254)&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;With all of the configuration and manifest files in place, go ahead and reload the systemcl daemon to apply the changes, then start and enable the kubelet service.&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="364" width="260" height="96" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXs9M7bIU0b1kzFrnqTN-7" target="sXs9M7bIU0b1kzFrnqTN-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sXs9M7bIU0b1kzFrnqTN-7" value="&lt;b&gt;DOWNLOAD &amp;amp; INSTALL KUBECTL&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="490" width="260" height="50" as="geometry" />
+        <mxCell id="sXs9M7bIU0b1kzFrnqTN-7" value="&lt;b&gt;5. INSTALL KUBECTL&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;source sans pro&amp;#34; , sans-serif ; letter-spacing: 0.57px ; background-color: rgb(254 , 254 , 254)&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;Kubernetes is given instructions through a separate command line utility called kubectl&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sXs9M7bIU0b1kzFrnqTN-8" value="&lt;b&gt;CONFIG THE WORKERS NODES&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="587" width="260" height="50" as="geometry" />
+        <mxCell id="sXs9M7bIU0b1kzFrnqTN-8" value="&lt;b&gt;6. CONFIG THE WORKERS NODES&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-family: &amp;#34;source sans pro&amp;#34; , sans-serif ; letter-spacing: 0.57px ; background-color: rgb(254 , 254 , 254)&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;With the master node ready you can add your worker nodes to the Kubernetes cluster.&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="587" width="260" height="63" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-15" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
           <mxGeometry x="310" y="270" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-16" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=kubelet" vertex="1" parent="1">
-          <mxGeometry x="310" y="364" width="50" height="48" as="geometry" />
+          <mxGeometry x="310" y="388" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-125" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.08;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sXs9M7bIU0b1kzFrnqTN-17" target="sXs9M7bIU0b1kzFrnqTN-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-17" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=node" vertex="1" parent="1">
-          <mxGeometry x="310" y="462" width="50" height="48" as="geometry" />
+          <mxGeometry x="310" y="490" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-20" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=netpol" vertex="1" parent="1">
           <mxGeometry x="310" y="91" width="50" height="48" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="310" y="182" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-23" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="1">
-          <mxGeometry x="310" y="560" width="50" height="48" as="geometry" />
+          <mxGeometry x="310" y="587" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="585" y="50" width="390" height="220" as="geometry" />
