@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-24T11:46:56.968Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="nR1J9OVpz2Go3MP1cdzE" version="13.7.5" type="github">
+<mxfile modified="2020-09-24T11:49:39.727Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="MKAHIlsrx3ACdBaKW4c9" version="13.7.5" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1185" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -64,20 +64,14 @@
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="350" width="330" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="sXs9M7bIU0b1kzFrnqTN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXs9M7bIU0b1kzFrnqTN-29" target="sXs9M7bIU0b1kzFrnqTN-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="sXs9M7bIU0b1kzFrnqTN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXs9M7bIU0b1kzFrnqTN-29" target="sXs9M7bIU0b1kzFrnqTN-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-29" value="REST API" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="595" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-30" value="CONTROLLER MANAGER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="795" y="70" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-31" value="SCHEDULER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="795" y="118" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-32" value="ETCD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="595" y="210" width="320" height="50" as="geometry" />
@@ -275,7 +269,7 @@
           <mxGeometry x="660" y="70" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-118" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=c_m" vertex="1" parent="1">
-          <mxGeometry x="920" y="76" width="50" height="48" as="geometry" />
+          <mxGeometry x="920" y="61" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-119" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=user" vertex="1" parent="1">
           <mxGeometry x="505" y="128" width="50" height="48" as="geometry" />
@@ -283,8 +277,14 @@
         <mxCell id="sXs9M7bIU0b1kzFrnqTN-120" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=etcd" vertex="1" parent="1">
           <mxGeometry x="730" y="190" width="50" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="sXs9M7bIU0b1kzFrnqTN-121" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=sc" vertex="1" parent="1">
-          <mxGeometry x="920" y="146" width="50" height="48" as="geometry" />
+        <mxCell id="sXs9M7bIU0b1kzFrnqTN-122" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=rs" vertex="1" parent="1">
+          <mxGeometry x="920" y="155" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sXs9M7bIU0b1kzFrnqTN-123" value="REPLICA SETS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="164" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sXs9M7bIU0b1kzFrnqTN-124" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=quota" vertex="1" parent="1">
+          <mxGeometry x="920" y="107" width="50" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
